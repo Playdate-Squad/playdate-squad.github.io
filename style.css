@@ -1,5 +1,5 @@
 :root {
-    --bigtext:40px;
+    --bigtext:30px;
     --h1: large;
 }
 
@@ -21,6 +21,8 @@ h1, h2, h3, p, a {
     color: white;
     padding: 0;
     margin: 0;
+
+    text-shadow: 0px 4px 9px rgba(0,0,0,0.5);
 }
 
 h1.header {
@@ -45,7 +47,7 @@ div.content {
 
 div.box {
     padding: 20px;
-
+    
     clip-path: polygon(0% 40px, 100% 0%, 100% calc(100% - 40px), 0% 100%);
 }
 
@@ -82,6 +84,13 @@ iframe {
     border-radius: 25px;
 
     margin-bottom: 50px;
+
+    box-shadow: 0px 4px 9px black;
+}
+
+.icon {
+    width: 30px;
+    opacity: 50%;
 }
 
 @media only screen and (min-width: 700px) {
@@ -103,5 +112,9 @@ iframe {
 
     .spacer {
         display: none;
+    }
+
+    .icon:hover {
+        opacity: 75%;
     }
 }
