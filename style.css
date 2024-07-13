@@ -12,6 +12,9 @@ body {
     background-color: #00a88a;
 }
 
+.spacer {
+    height: 20px;
+}
 
 h1, h2, h3, p, a {
     font-family: "Poppins", sans-serif;
@@ -42,7 +45,6 @@ div.content {
 
 div.box {
     padding: 20px;
-    margin-top: 20px;
 
     clip-path: polygon(0% 40px, 100% 0%, 100% calc(100% - 40px), 0% 100%);
 }
@@ -97,5 +99,9 @@ iframe {
         background: linear-gradient(#b37e01, #d09f01);
         transform: scale(95%);
         box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+    }
+
+    .spacer {
+        display: none;
     }
 }
