@@ -26,7 +26,7 @@ body {
     height: 20px;
 }
 
-h1, h2, h3, p, a {
+h1, h2, h3, p, a, sub {
     font-family: "Poppins", sans-serif;
     color: white;
     padding: 0;
@@ -129,4 +129,10 @@ iframe {
     .icon:hover {
         opacity: 75%;
     }
+}
+
+sub {
+    margin-bottom: 30px;
+    display: block;
+    opacity: 60%;
 }
